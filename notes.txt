@@ -1,0 +1,299 @@
+How To open folder 
+
+Cd ./___________(name) 
+
+-------------------------------------- 
+
+To open a file: 
+
+open ______(name).txt 
+
+-------------------------------------- 
+
+To move a file to a folder 
+
+mv ______(file name) ____(folder)/ 
+
+mv 
+
+-------------------------------------- 
+
+To create a folder: 
+
+Use the commands mkdir ___________(name) 
+
+ -------------------------------------- 
+
+To create file: 
+
+touch ______(name).txt 
+
+--------------------------------------- 
+
+To add something into the file: 
+
+echo "______________(what text you want in the file)" >_______(name of file).txt 
+
+-------------------------------------- 
+
+To delete a folder: 
+
+Use the commands rmdir ./__________(name)/ 
+
+-------------------------------------- 
+
+To delete a file: 
+
+rm ./__________(file name) 
+
+-------------------------------------- 
+
+To edit name for file: 
+
+Mv ________(name).txt __________(new name) 
+
+-------------------------------------- 
+
+to Use "nano" to edit the contents of files in vm linux: 
+
+Nano _______________(name).txt 
+
+· (Nano opens) 
+
+· Rewrite message 
+
+· CTRL+o (to check if you are in the correct file) 
+
+· Enter 
+
+· CTRL+x (to exit) 
+
+Commands List: 
+
+- ls 
+
+- cd 
+
+- pwd 
+
+- mkdir 
+
+- rmdir 
+
+- rm 
+
+- cp 
+
+- mv 
+
+- touch 
+
+- file 
+
+- zip 
+
+- unzip 
+
+- man  
+
+- cat 
+
+- less 
+
+- su – 
+
+- cd/ 
+
+Command Details: 
+
+------------------------------- 
+
+- `ls` 
+
+- Purpose: Lists the contents of a directory. 
+
+- Usage: `ls` for basic listing, `ls -l` for detailed listing, `ls -a` to include hidden files. 
+
+- Notes: Essential for quickly viewing what's in the current directory. 
+
+ 
+
+- `cd` 
+
+- Purpose: Changes the current directory. 
+
+- Usage: `cd [directory path]` to move to a specific directory, `cd ..` to move up one directory level, `cd` or `cd ~` to return to the home directory. 
+
+- Notes: Most commonly used for navigating through the filesystem. 
+
+ 
+
+- `pwd` 
+
+- Purpose: Prints the current directory path. 
+
+- Usage: `pwd` to display the full path of the current directory. 
+
+- Notes: Useful for confirming your current location in the filesystem. 
+
+ 
+
+- `mkdir` 
+
+- Purpose: Creates a new directory. 
+
+- Usage: `mkdir [directory name]` to create a new directory in the current location. 
+
+- Notes: Handy for organizing files into new folders. 
+
+ 
+
+- `rmdir` 
+
+- Purpose: Removes a directory. 
+
+- Usage: `rmdir [directory name]` to delete an empty directory. 
+
+- Notes: Used for cleaning up and removing unused directories. Note that the directory must be empty 
+
+ 
+
+- 'rm' 
+
+-usage: rm [options] file1 file2  
+
+notes: the rm command deletes files from a directory  
+
+ 
+
+- 'cp' 
+
+-Usage: cp file1 file2 [target_path] 
+
+-Notes: Use cp command to copy files from your current directory to another folder 
+
+ 
+
+- 'mv' 
+
+-Usage: mv file_or_directory [target_directory] 
+
+-Notes: mv command is used to move a file or folder to another location  
+
+ 
+
+- 'touch' 
+
+-Usage: touch [options] [path_and_file_name] 
+
+-Note: touch command is used to create a new emtpy file in a specific directory 
+
+ 
+
+- 'file' 
+
+-Usage:file [file_name] 
+
+-Note: the file command checks a file type, such as TXT, PFP, or others 
+
+ 
+
+- 'zip' 
+
+-Usage: zip [options] zip_file_name file1 file2 
+
+-Note: zip command compresses one or multiple files  
+
+ 
+
+- 'unzip' 
+
+-Usage: unzip [options] zip_file_name 
+
+-Note: to extract a compressed file 
+
+ 
+
+- 'man' 
+
+-Usage: man [command] 
+
+-Note: man is used to read the manual for any command 
+
+ 
+
+- 'cat' 
+
+-Usage: cat filename.txt 
+
+-Note: opens the contents of a file  
+
+ 
+
+- 'less' 
+
+-Usage: less filename.txt 
+
+-Note: allows you to scroll through a file 
+
+ 
+
+-‘su –‘ 
+
+Usage: su – 
+
+Note: switch users 
+
+ 
+
+-‘cd /’ 
+
+Usage : cd /  
+
+Note : To return to the root directory 
+
+ 
+
+GIT NOTES 
+
+ 
+
+-‘git commit’ 
+
+Note: Takes the staged snapshot and commits it to the project history  
+
+ 
+
+-‘git config’ 
+
+-a way to set configuration options for your Git installation 
+
+ 
+
+-‘git init’ 
+
+Note: initializes a new Git repository  
+
+ 
+
+-‘git log’ 
+
+Note: lets you explore the previous revisions of a project 
+
+ 
+
+-‘git merge’ 
+
+Note: A powerful way to integrate changes from divergent branches 
+
+ 
+
+-‘git pull’ 
+
+Note: downloads a branch from a remote repository  
+
+ 
+
+-“git push’ 
+
+Note: lets you move a local branch to another repository  
