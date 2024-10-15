@@ -1,5 +1,9 @@
+<<<<<<< HEAD
+How To open folder
+=======
 How To open folder 
 
+>>>>>>> origin/main
 Cd ./___________(name) 
 
 -------------------------------------- 
@@ -102,7 +106,13 @@ Commands List:
 
 - su – 
 
+<<<<<<< HEAD
+- cd / 
+
+- cd ~
+=======
 - cd/ 
+>>>>>>> origin/main
 
 Command Details: 
 
@@ -252,10 +262,20 @@ Usage : cd /
 
 Note : To return to the root directory 
 
+<<<<<<< HEAD
+-'cd ~'
+Note: Get to home directory
+
+ 
+---------------------
+GIT NOTES 
+---------------------
+=======
  
 
 GIT NOTES 
 
+>>>>>>> origin/main
  
 
 -‘git commit’ 
@@ -296,4 +316,75 @@ Note: downloads a branch from a remote repository
 
 -“git push’ 
 
+<<<<<<< HEAD
 Note: lets you move a local branch to another repository  
+
+
+------------------------
+BASH SCRIPT COMMANDS
+------------------------
+
+
+-'echo'
+
+Note: used to print out text
+
+
+-'sleep'
+
+Note: sleep is used to halt all current running bash scripts
+
+
+-'comments'
+
+Note: User can add comments to their bash scripts
+
+
+-'read'
+
+Note: to take input from users
+
+
+-'hello world'
+
+Note: will create a new variable
+
+
+-'wait'
+
+Note: wait is a built in linux command that waits for completion of running proess
+
+
+--------------------
+SYSTEM MONITORING
+--------------------
+
+
+-'Top'
+
+Note: top is used to display all running and active real-time processes
+
+
+-'VmStat'
+
+Note: VmStat is used to display statistics of virtual memory
+
+
+-'Htop'
+
+Notes: htop is a advanced real-time linux process monitoring tool 
+
+
+-'iotop'
+
+Note: iotop is similar to top command and htop but it has an accounting function
+
+
+-'df'
+
+Note; displays information about file system disk space
+
+
+-'uptime'
+
+Note: used to tell how long the linux system has been running
