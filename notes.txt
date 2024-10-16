@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 How To open folder
-=======
-How To open folder 
 
->>>>>>> origin/main
 Cd ./___________(name) 
 
 -------------------------------------- 
@@ -106,13 +102,12 @@ Commands List:
 
 - su – 
 
-<<<<<<< HEAD
 - cd / 
 
 - cd ~
-=======
+
 - cd/ 
->>>>>>> origin/main
+
 
 Command Details: 
 
@@ -262,7 +257,7 @@ Usage : cd /
 
 Note : To return to the root directory 
 
-<<<<<<< HEAD
+
 -'cd ~'
 Note: Get to home directory
 
@@ -270,12 +265,7 @@ Note: Get to home directory
 ---------------------
 GIT NOTES 
 ---------------------
-=======
- 
 
-GIT NOTES 
-
->>>>>>> origin/main
  
 
 -‘git commit’ 
@@ -316,7 +306,6 @@ Note: downloads a branch from a remote repository
 
 -“git push’ 
 
-<<<<<<< HEAD
 Note: lets you move a local branch to another repository  
 
 
@@ -324,6 +313,8 @@ Note: lets you move a local branch to another repository
 BASH SCRIPT COMMANDS
 ------------------------
 
+Definition: A Bash script is a text file with commands for Bash shell, 
+used to automate tasks and simplify system operations. You run it in the terminal to proform multiple commands at once.
 
 -'echo'
 
@@ -333,7 +324,11 @@ Note: used to print out text
 -'sleep'
 
 Note: sleep is used to halt all current running bash scripts
+Useage: can be use to create a delay between commands
 
+echo 'starting...'
+sleep 3
+echo "3 seconds have passed
 
 -'comments'
 
@@ -359,6 +354,7 @@ Note: wait is a built in linux command that waits for completion of running proe
 SYSTEM MONITORING
 --------------------
 
+Definition: Sysyem monitoring is checking how well a computer or network is working. It looks at things like CPU and memory use to spot problems.
 
 -'Top'
 
@@ -372,7 +368,7 @@ Note: VmStat is used to display statistics of virtual memory
 
 -'Htop'
 
-Notes: htop is a advanced real-time linux process monitoring tool 
+Notes: htop is a user friendly version of top and is a real-time linux process monitoring tool 
 
 
 -'iotop'
@@ -388,3 +384,10 @@ Note; displays information about file system disk space
 -'uptime'
 
 Note: used to tell how long the linux system has been running
+
+----------------------
+SYSTEM SECURITY
+----------------------
+
+
+Definition: system security protects computers systems and networks from un authorized access and attacks.
