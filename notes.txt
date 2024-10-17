@@ -385,6 +385,46 @@ Note; displays information about file system disk space
 
 Note: used to tell how long the linux system has been running
 
+--LOG MONITORING --
+
+Journalctl, views/manage logs collectd by systemd journal. Gives detailed info about system/serive events
+
+Journalctl
+
+-'Journalctl -f'
+
+Note: follows logs in real time
+
+-'Journalctl -u <service name>'
+
+Note: Look at logs for specific service 
+
+-'Journalctl -b --since "2024-10-17-10:00:00"'
+
+Note: view log from a specific date or time
+
+
+/var/log, stores log files . Helps users monitor and troubleshoot the system
+
+-'cat /var/log/syslog'
+
+Note: Displays entire system log.
+
+-'less /var/log/syslog'
+
+Note: Will open system log 
+
+-'tail /var/log/syslog'
+
+Note: lets you see the last 10 lines of the system log
+
+-'tail -f /var/log/syslog'
+
+Note: continuesly shows new log entires as they happen 
+
+--AUTHENTICATION LOGS--
+
+
 ----------------------
 SYSTEM SECURITY
 ----------------------
