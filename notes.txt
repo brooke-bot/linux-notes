@@ -424,6 +424,8 @@ Note: continuesly shows new log entires as they happen
 
 --AUTHENTICATION LOGS--
 
+cat /var/log/auth.log : look at authentication attemptes.
+
 
 ----------------------
 SYSTEM SECURITY
@@ -431,3 +433,56 @@ SYSTEM SECURITY
 
 
 Definition: system security protects computers systems and networks from un authorized access and attacks.
+
+
+-'Least Privilege' 
+
+Note: Grants users minimum permissions necessary
+
+-'Regular Updates' 
+
+Notes: Keeps the system and software updated
+
+-'User Account Manegement'
+
+Note: use strong passwords, manage user accounts properly, and disable unnecessary accounts
+
+-'file Permissions' 
+
+Note- set proper permissions for files and directories using 'chmod' 'chown' 'umask'
+
+-'Firewall configuration'
+
+Note: uses 'iptable' and 'ufw' to help control incoming/outgoing traffic
+
+-'Logging monitoring'
+
+Note: monitor system logs using 'syslog' or 'Journalctl'
+
+-'Disable Unused services'
+
+Note: Turn off unnecessary servicesto help reduce attack surfaces
+
+
+---------------------
+FILE PERMISSIONS
+---------------------
+
+
+-'chown'
+Usage: chown [owner]:[group] filename
+Example: chown steve:admin file.txt
+Note:this changes the owner of the file to user 'steve' and the group to admine 
+
+
+-'chmod'
+Usage: chmod [permissions] filename
+Example: chmod 755 script.sh
+Note: this allows the owner to read, write, and execute the file while others can only read it.
+
+
+-'ls -l'
+Usage: ls -l
+Example: -rwxr-xr-x 1 john admin  1234 Oct 18 10:00 script.sh
+Notes: this will show owner, group, file size, last modified date, and tlast but not least the file name!
+
