@@ -486,3 +486,86 @@ Usage: ls -l
 Example: -rwxr-xr-x 1 john admin  1234 Oct 18 10:00 script.sh
 Notes: this will show owner, group, file size, last modified date, and tlast but not least the file name!
 
+
+---------------------
+USER MANAGEMENT
+---------------------
+
+-------------------
+how to create users
+-------------------
+
+- use commands such as adduser or useradd
+
+1. 'sudo adduser unsername'
+
+2. 'sudo usermod -aG sudo username'
+
+3. 'password requisite pam_pwquality.so minlen=8 ucredit=-1 lcredit=-1 dcredit=-1 ocredit=-1'
+
+4. 'PermitRootLogin no'
+
+5. 'sudo systemctl restasrt sshd'
+
+6. 'AllowUsers username'
+
+7.'sudo chmod 700 /home/username'
+
+8.'last'
+
+
+---------------------
+how to modify users
+---------------------
+
+1. 'sudo usermod -l newname oldname'
+
+2. 'sudo usermod -d /new/home/directory username
+
+3. 'sudo usermod -aG groupname username'
+
+4. 'sudo passwd username'
+
+
+---------------------
+how to delete users 
+---------------------
+
+1. 'sudo deluser username'
+
+2. 'sudo deluser --remove-home username'
+
+
+------------------------------
+FIREWALL BASICS
+------------------------------
+
+-'ufw'
+
+Note: is a simple tool for managing firewall rules in linux, allowing and blocking specific connectionsto enhance system security.
+
+
+----------------
+How to enable it
+----------------
+
+1. 'sudo ufw enable
+
+2. 'sudo ufw status'
+
+
+-------------------
+how to allow ports
+-------------------
+
+1. 'sudo ufw allow port_number'
+
+2. 'sudo ufw allow 80'
+
+---------------------
+how to deny protects
+---------------------
+
+1. 'sudo ufw deny port_number'
+
+2. 'sudo ufw deny 22'
