@@ -350,6 +350,10 @@ Note: will create a new variable
 Note: wait is a built in linux command that waits for completion of running proess
 
 
+-variables
+
+Note: variables are like containers that hold different types of information.
+
 --------------------
 SYSTEM MONITORING
 --------------------
@@ -569,3 +573,4 @@ how to deny protects
 1. 'sudo ufw deny port_number'
 
 2. 'sudo ufw deny 22'
+
