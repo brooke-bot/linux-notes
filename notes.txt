@@ -1,18 +1,18 @@
 How To open folder
 
-Cd ./___________(name) 
+Cd (name) 
 
 -------------------------------------- 
 
 To open a file: 
 
-open ______(name).txt 
+open (name).txt 
 
 -------------------------------------- 
 
 To move a file to a folder 
 
-mv ______(file name) ____(folder)/ 
+mv (file name) ____(folder)/ 
 
 mv 
 
