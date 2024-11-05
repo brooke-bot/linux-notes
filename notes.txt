@@ -354,6 +354,18 @@ Note: wait is a built in linux command that waits for completion of running proe
 
 Note: variables are like containers that hold different types of information.
 
+-----------------------------
+BASIC INFO FOR BASH SCRIPTS
+-----------------------------
+
+-nano 
+
+Note: this is a text editor that is used to wirite stuff IN to make the script
+
+-#!/bin/bash
+
+Note: is used as the first line in a bash script 
+
 --------------------
 SYSTEM MONITORING
 --------------------
