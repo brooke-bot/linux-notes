@@ -12,7 +12,7 @@ open (name).txt
 
 To move a file to a folder 
 
-mv (file name) ____(folder)/ 
+mv (file name) (folder)/ 
 
 mv 
 
@@ -20,43 +20,43 @@ mv
 
 To create a folder: 
 
-Use the commands mkdir ___________(name) 
+Use the commands mkdir (name) 
 
  -------------------------------------- 
 
 To create file: 
 
-touch ______(name).txt 
+touch (name).txt 
 
 --------------------------------------- 
 
 To add something into the file: 
 
-echo "______________(what text you want in the file)" >_______(name of file).txt 
+echo "(what text you want in the file)" >(name of file).txt 
 
 -------------------------------------- 
 
 To delete a folder: 
 
-Use the commands rmdir ./__________(name)/ 
+Use the commands rm (name)
 
 -------------------------------------- 
 
 To delete a file: 
 
-rm ./__________(file name) 
+rm (file name) 
 
 -------------------------------------- 
 
 To edit name for file: 
 
-Mv ________(name).txt __________(new name) 
+Mv (name).txt (new name) 
 
 -------------------------------------- 
 
 to Use "nano" to edit the contents of files in vm linux: 
 
-Nano _______________(name).txt 
+Nano (name).txt 
 
 · (Nano opens) 
 
@@ -350,9 +350,13 @@ Note: will create a new variable
 Note: wait is a built in linux command that waits for completion of running proess
 
 
--variables
+-'variables'
 
 Note: variables are like containers that hold different types of information.
+
+-'loop'
+
+Note: Loop is used to repeatedly execute a set of commands.
 
 -----------------------------
 BASIC INFO FOR BASH SCRIPTS
