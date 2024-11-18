@@ -121,6 +121,11 @@ Command Details (Linix):
 
 - Notes: Essential for quickly viewing what's in the current directory. 
 
+
+-'ls -l'
+
+Note: lists your files and folders
+
  
 
 - `cd` 
