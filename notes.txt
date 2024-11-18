@@ -261,7 +261,30 @@ Note : To return to the root directory
 -'cd ~'
 Note: Get to home directory
 
- 
+-'chmod +x'
+
+Note: gives owner, group, and others the execute permission 
+
+-'chmod g-w filename'
+
+note: used to get rid ofwriting permissons from group
+
+-'chmod 755'
+
+Note: permissoins are set too |rwx|r-x|r-x
+
+r= 4
+
+w=2
+
+x=1
+
+d= its in a directory
+
+- = its a file 
+
+it should look something like this: d|rwx|rwx|rwx 
+
 ---------------------
 GIT NOTES 
 ---------------------
