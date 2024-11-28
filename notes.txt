@@ -618,3 +618,41 @@ how to deny protects
 
 2. 'sudo ufw deny 22'
 
+
+----------------------------------------
+SYSTEMS & USERS (ties back into creating users, deleting users, & modifying users 2 scrolls up)
+----------------------------------------
+
+
+-----SYSTEM------
+
+
+system define the file system, permissions & users/accounts 
+
+Permissions govern/give different level of permissions to the file system 
+
+The file system effects the different systems in the computer
+
+-----USERS AND THE DIFFERENT TYPES-----
+
+users belong to different user types (Root, Regular, Daemons, & guest)
+
+User types access file systems & have different levels of permissions to/on the system
+
+-Root users 
+Note: Admin with full control to the system
+
+-Regular users
+Note:the regular users have limited permissions to the system, but can enter the file/directory
+
+-System user
+Note: Was created by the system to run and control services within the system.
+
+-Daemons
+Note: The system users created for it to run in thr background
+
+-Guest users 
+Note: A temporary user account that has limited permissions, has no passwords, and is often deleted after the user has logged out.
+
+                                                      
+                                                    
